@@ -1,0 +1,82 @@
+body{ 
+    background-image: url("https://www.heliforkliftsvictoria.com.au/wp-content/uploads/2019/02/heli_slider-1.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    body.bg {
+      left: 50%;
+     margin-left:50% ;    /* -512px*/
+   
+    }
+}
+.top-bg{
+    height: 400%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)) !important;
+}
+.home-section{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 50px 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.head-line{
+    font-family: 'Impact';
+    font-size: 50px;
+    font-weight: 400;
+    width: 900px; 
+    margin: 0 auto;
+    line-height: 95px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    overflow-wrap: anywhere;
+    display: contents;
+    color: #fff;
+}
+.about{
+    font-family: 'Impact';
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #e60012;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.home-button{
+    margin-top: 30px;
+}
+.home-button-item{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    background-color: #e60012;
+    color: #fff;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}

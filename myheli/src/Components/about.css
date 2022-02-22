@@ -1,0 +1,11 @@
+.title h1{
+    color: #2c2c2c;
+    font-family: 'Impact';
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
