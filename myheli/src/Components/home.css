@@ -2,16 +2,10 @@ body{
     background-image: url("https://www.heliforkliftsvictoria.com.au/wp-content/uploads/2019/02/heli_slider-1.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -o-background-size: cover; 
+     background-size: cover;
     background-repeat: no-repeat;
-}
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-    body.bg {
-      left: 50%;
-     margin-left:50% ;    /* -512px*/
-   
-    }
+
 }
 .top-bg{
     height: 400%;
